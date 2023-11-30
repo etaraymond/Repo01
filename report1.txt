@@ -1,0 +1,39 @@
+Open the command line.
+
+Set your username:
+git config --global user.name "FIRST_NAME LAST_NAME"
+
+Set your email address:
+git config --global user.email "MY_NAME@example.com"
+
+To set repository-specific username/email configuration:
+From the command line, change into the repository directory.
+
+Set your username:
+git config user.name "FIRST_NAME LAST_NAME"
+
+Set your email address:
+git config user.email "MY_NAME@example.com"
+
+Verify your configuration by displaying your configuration file:
+cat .git/config
+
+Update your configuration from Sourcetree
+Sourcetree adds your name and email address to your configuration files automatically when you log in with your Atlassian account. Use these steps if you'd like to update your global username/email or add a repository-specific username/email. After you set your global configuration, repository-specific configuration is optional.
+
+To set your global username/email configuration:
+(macOS) From the Sourcetree menu, select Preferences.
+(Windows) From the Tools menu, select Options.
+
+Select the General tab if it's not already selected.
+
+Under Default user information, update your Full name and Email address.
+
+To set repository-specific username/email configuration:
+From the repository in Sourcetree, click Settings.
+
+From the dialog that opens, select the Advanced tab.
+
+If Use global user settings is selected, remove the checkmark.
+
+Update Full name and Email address with the username/email details you want to use.
